@@ -1,0 +1,6 @@
+---
+  run script:
+    script:
+      - pip install dbnomics-data-model
+      - pip install panda
+      - python load.py
